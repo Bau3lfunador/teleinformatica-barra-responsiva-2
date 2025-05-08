@@ -1,25 +1,28 @@
 nav{
+  display: flex;
     background-color: #273032;
     color: violet;
     padding: 20px;
-  }
+    align-items: center;
+    justify-content: space-between;
+}
   
   img {
-    height:140px;
-    width: 150px;
+    height:110px;
+    width: 120px;
     display: flex;
-    flex-direction:flex-start;
     }
   
   
   ul {
     margin: 0px;
+    display: flex;
   }
   
   li {
     list-style: none;
     display: inline;
-    margin-right: 0.2rem;
+    margin-left: 20px;
   }
   
   a {
@@ -28,10 +31,7 @@ nav{
   @media(max-width:20px){
     .barra{
     flex-direction:column;
+
     }
-  }
-  .pond {
-    display: flex;
-  justify-content:right;
   }
   
