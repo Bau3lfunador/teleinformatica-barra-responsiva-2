@@ -1,8 +1,8 @@
 nav{
   display: flex;
     background-color: #273032;
-    color: violet;
-    padding: 20px;
+    color: moccasin;
+    padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -17,6 +17,8 @@ nav{
   ul {
     margin: 0px;
     display: flex;
+    align-items: center;
+    padding:0;
   }
   
   li {
@@ -28,8 +30,8 @@ nav{
   a {
     color: pink;
   }
-  @media(max-width:20px){
-    .barra{
+  @media(max-width:768px){
+    nav, ul{
     flex-direction:column;
 
     }
